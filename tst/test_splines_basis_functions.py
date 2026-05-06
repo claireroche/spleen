@@ -1,8 +1,6 @@
 from src.bsplines import *
 from plot_bspline_curve import *
 
-import pytest
-
 def test_bspline_basis_functions_2_1():
     # Test Case NURBS BOOK, p.52, Ex2.1.
     # B-Spline of degree p=2
