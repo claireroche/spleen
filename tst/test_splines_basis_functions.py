@@ -1,5 +1,4 @@
 from src.bspline_curve import *
-from plot_bspline_curve import *
 
 def test_bspline_basis_functions_2_1():
     # Test Case NURBS BOOK, p.52, Ex2.1.
