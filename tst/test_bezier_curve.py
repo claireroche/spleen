@@ -79,7 +79,7 @@ def test_bernstein():
     assert(spleen_bc.bernstein(1, 1,    1) == 1)
 
 
-def test_bezier_curve_subdiviser():
+def test_bezier_curve_subdivision():
 
     ctrl_pts = [(0,0,0), (0.4,-0.1,0.4), (0.6,1.1,0.4), (1,1,0)]
     t0 = 0.5
